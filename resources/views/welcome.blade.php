@@ -8,10 +8,8 @@
         <link rel="stylesheet" href="/css/tailwind.min.css">
         @livewireStyles
     </head>
-    <body class="font-sans bg-gray-100 text-gray-900">
-        <div class="">
-            <livewire:comments>
-        </div>
+    <body class="font-sans text-gray-900">
+        <livewire:comments :initialComments="$comments" />
         @livewireScripts
     </body>
 </html>
